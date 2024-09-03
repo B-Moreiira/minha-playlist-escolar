@@ -1,0 +1,61 @@
+body { 
+ color:black;
+ background: rgb(243, 199, 206);
+ margin: 0px;
+ font-family:"georgia", sans-serif;
+ margin-bottom: 100px;
+}
+
+header {
+ border: solid 2px blanchedalmond;
+ padding: 20px;
+ font-size: 32px;
+ font-style: oblique;
+ color: black;
+}
+.chamada {
+ background: rgba(255, 235, 205, 0.212);
+ padding-bottom: 80px;
+ padding-top: 25px;
+ }
+ .chamada-texto {
+     margin-right: 5%;
+ }
+
+ h1 {
+ font-size: 35px;
+}
+
+p{
+ font-size:15px ;
+}
+
+img {
+    height: 200px;
+}
+
+.categoria-Rap {
+    display:block;
+    overflow-x: hidden;
+    gap: 15px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-Rap img {
+    opacity:0,5;
+    height: 200px;
+}
+
+.categoria-Rap img:hover {
+    opacity: 1.0;
+    border: 1px black;
+}
+
+.categoria h2 {
+    color: blanchedalmond;
+}
